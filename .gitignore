@@ -398,3 +398,46 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+# ===============================
+# 📁 PowerShell Automation Rules
+# ===============================
+
+# Ignore PowerShell binary logs
+*.ps1.xml
+*.psm1.xml
+*.psd1.xml
+*.ps1test
+
+# PowerShell-generated debug logs
+*.log
+*.log1
+*.log2
+*.etl
+
+# PowerShell secrets or certs
+*.pfx
+*.p12
+*.snk
+*.key
+*.pem
+
+# Secure config or sensitive variables
+*.env
+secrets.json
+*.secure.json
+
+# Module or test outputs
+*.nupkg
+*.TestResults
+*.coverage
+
+# PSReadLine history
+ConsoleHost_history.txt
+
+# Local temp files
+~*
+*.tmp
+
+# VS Code config backups
+.vscode-test/
+.history/
