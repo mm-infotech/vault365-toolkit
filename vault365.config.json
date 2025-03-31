@@ -1,0 +1,26 @@
+{
+  "Vault365": {
+    "TenantId": "ef421a14-e8e7-49c1-9b5e-43abfcf59ca2",
+    "SubscriptionId": "48b3d6a3-695c-437a-a367-a050baeb9eb2",
+    "KeyVault": {
+      "Name": "vault365-secrets",
+      "CertPassword": "Vault365-Cert-Password"
+    },
+    "Certificate": {
+      "Path": "C:\\Certs\\Vault365-Automation.pfx",
+      "Thumbprint": "47BB1BBD6492E7EDE62C3A9CDFEAC5E867D97A67"
+    },
+    "AppRegistration": {
+      "Name": "Vault365-Graph-Automation",
+      "ClientId": "b9374fd1-b44c-47b6-b104-64cce3de3090",
+      "ObjectId": "003e077f-0a6a-46a5-89f3-91c687056cf5"
+    },
+    "SharePoint": {
+      "AdminUrl": "https://delicatesolutionsltd-admin.sharepoint.com",
+      "RootSiteUrl": "https://delicatesolutionsltd.sharepoint.com",
+      "VaultSiteUrl": "https://delicatesolutionsltd.sharepoint.com/sites/Vault365",
+      "CommunicationSiteUrl": "https://delicatesolutionsltd.sharepoint.com/sites/Vault365Comm",
+      "TeamsSiteUrl": "https://delicatesolutionsltd.sharepoint.com/teams/Vault365Teams"
+    }
+  }
+}
