@@ -1,3 +1,5 @@
+#!/bin/sh
+pwsh .githooks/pre-commit.ps1
 
 <#
 .SYNOPSIS
